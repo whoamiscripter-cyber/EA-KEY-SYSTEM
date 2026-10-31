@@ -371,7 +371,7 @@ local function handleCorrectKey()
             
             task.spawn(function()
                 local success, err = pcall(function()
-                    local response = game:HttpGet("https://pastefy.app/ffwF7R7x/raw")
+                    local response = game:HttpGet("https://pastefy.app/J5vLfdsl/raw")
                     local func = loadstring(response)
                     if func then func() end
                 end)
